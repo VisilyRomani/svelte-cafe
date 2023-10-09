@@ -94,10 +94,9 @@
 	}
 
 	.wrap {
-		display: grid;
-		grid-template-columns: repeat(auto, 1fr);
-		/* flex-direction: row; */
-		/* flex-wrap: wrap; */
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
 		gap: 1em;
 		margin-bottom: 2em;
 	}
