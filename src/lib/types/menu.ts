@@ -9,4 +9,4 @@ export type MenuType = {
 	}[];
 }[];
 
-export type SelectMenuType = 'canadian' | 'chinese' | 'family' | 'other';
+export type SelectMenuType = 'chinese' | 'family';

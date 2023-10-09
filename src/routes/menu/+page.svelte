@@ -14,11 +14,12 @@
 		case 'chinese':
 			Menu = chinese;
 			break;
-		case 'canadian':
-			Menu = canadian;
-			break;
+		// case 'canadian':
+		// 	Menu = canadian;
+		// 	break;
 		case 'family':
 			Menu = family;
+			break;
 	}
 	let CAD = new Intl.NumberFormat('en-US', {
 		style: 'currency',
@@ -26,6 +27,7 @@
 	});
 </script>
 
+<div class="bg" />
 <main class="hero">
 	<div class="container">
 		<!-- <aside>
@@ -42,7 +44,7 @@
 		<select bind:value={selectValue}>
 			<option value="chinese">Chinese Dishes</option>
 			<option value="family">Family Dinner</option>
-			<option value="canadian">Canadian Dishes</option>
+			<!-- <option value="canadian">Canadian Dishes</option> -->
 		</select>
 		{#each Menu as group}
 			<!-- <details> -->
@@ -54,21 +56,23 @@
 			<div class="wrap">
 				{#each group.items as item}
 					<article class="item">
-						<div>
+						<div class="center-item">
 							<h6>
 								{item.name}
 							</h6>
-							<ul style="max-width: 500px;">
-								{#each item?.consists ?? [] as cons}
-									<li>
-										<small>
-											<p>
-												{cons}
-											</p>
-										</small>
-									</li>
-								{/each}
-							</ul>
+							{#if item?.consists}
+								<ul style="max-width: 500px;">
+									{#each item?.consists ?? [] as cons}
+										<li>
+											<small>
+												<p>
+													{cons}
+												</p>
+											</small>
+										</li>
+									{/each}
+								</ul>
+							{/if}
 						</div>
 						{#if item.cost !== undefined}
 							<p>
@@ -88,8 +92,38 @@
 </main>
 
 <style>
+	main {
+		padding-top: 5em;
+	}
 	p {
 		text-wrap: nowrap;
+		justify-content: center;
+		margin: 0;
+	}
+
+	ul {
+		margin: 0;
+	}
+	h6 {
+		margin: 0;
+	}
+
+	.bg {
+		position: fixed;
+		top: 10vh;
+		background-image: url('../../lib/asset/bamboo.svg');
+		background-size: contain;
+		background-attachment: scroll;
+		z-index: -99;
+		opacity: 0.05;
+		height: 100%;
+		width: 100%;
+	}
+
+	.center-item {
+		display: flex;
+		flex-direction: column;
+		/* margin: 0.5em; */
 		margin: 0;
 	}
 
@@ -102,16 +136,25 @@
 	}
 	.item {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-between;
-		gap: 3em;
+		align-items: center;
+		padding: 1em;
+		gap: 1em;
 	}
 	@media only screen and (max-width: 600px) {
 		.wrap {
 			display: grid;
+			flex-direction: column;
+		}
+		.item {
+			flex-direction: row;
 		}
 	}
 	article {
 		margin: 0;
+	}
+	select {
+		background-color: white;
 	}
 </style>

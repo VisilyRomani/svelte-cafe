@@ -58,7 +58,7 @@
 					"Deluxe Chow Mein",
 					"Steamed Rice"
 				],
-				"cost": 83.95
+				"cost": 100.95
 			},
 			{
 				"name": "Dinner For 7",
@@ -140,7 +140,7 @@
 				"cost": 15.95
 			},
 			{
-				"name": "Combo #2",
+				"name": "Combo #3",
 				"consists": [
 					"Sweet and Sour Chicken Balls",
 					"Ham Fried Rice",
