@@ -1,0 +1,154 @@
+[
+	{
+		"group": "Chef Suggestions",
+		"items": [
+			{
+				"name": "Dinner For 2",
+				"consists": [
+					"Two Egg Rolls",
+					"Sweet and Sour Spare Ribs",
+					"Deluxe Chop Suey",
+					"Steamed Rice"
+				],
+				"cost": 32.95
+			},
+			{
+				"name": "Dinner For 3",
+				"consists": [
+					"Three Egg Rolls",
+					"Sweet and Sour Spare Ribs",
+					"Deep Fried Shrimp",
+					"Deluxe Chop Suey",
+					"Steamed Rice"
+				],
+				"cost": 49.95
+			},
+			{
+				"name": "Dinner For 4",
+				"consists": [
+					"Four Egg Rolls",
+					"Sweet and Sour Spare Ribs",
+					"Sweet and Sour Chicken Balls",
+					"Deep Fried Shrimp",
+					"Deluxe Chop Suey",
+					"Steamed Rice"
+				],
+				"cost": 66.95
+			},
+			{
+				"name": "Dinner For 5",
+				"consists": [
+					"Five Egg Rolls",
+					"Sweet and Sour Spare Ribs",
+					"Deep Fried Shrimp",
+					"Deluxe Chop Suey",
+					"Almond Chicken",
+					"Steamed Rice"
+				],
+				"cost": 83.95
+			},
+			{
+				"name": "Dinner For 6",
+				"consists": [
+					"Six Egg Rolls",
+					"Sweet and Sour Spare Ribs",
+					"Deep Fried Shrimp",
+					"Deluxe Chop Suey",
+					"Almond Chicken",
+					"Deluxe Chow Mein",
+					"Steamed Rice"
+				],
+				"cost": 83.95
+			},
+			{
+				"name": "Dinner For 7",
+				"consists": [
+					"Seven Egg Rolls",
+					"Sweet and Sour Chicken Balls",
+					"Dry Spare Ribs",
+					"Deep Fried Shrimp",
+					"Deluxe Chop Suey",
+					"Almond Chicken",
+					"Deluxe Chow Mein",
+					"Shanghai Noodles",
+					"Steamed Rice"
+				],
+				"cost": 117.95
+			},
+			{
+				"name": "Dinner For 8",
+				"consists": [
+					"Eight Egg Rolls",
+					"Shanghai Noodles",
+					"Sweet and Sour Chicken Balls",
+					"Deep Fried Shrimp",
+					"Dry Spare Ribs",
+					"Sweet and Sour Pork",
+					"Deluxe Chop Suey",
+					"Almond Chicken",
+					"Deluxe Chow Mein",
+					"Steamed Rice"
+				],
+				"cost": 134.95
+			}
+		]
+	},
+	{
+		"group": "Soups",
+		"items": [
+			{
+				"name": "Wonton Noodle Soup",
+				"sm": 8.95,
+				"lg": 11.95
+			},
+			{
+				"name": "Deluxe Wonton Soup",
+				"cost": 13.95
+			}
+		]
+	},
+	{
+		"group": "Sizzling Platters",
+		"items": [
+			{
+				"name": "Mandrin Chicken",
+				"cost": 16.95
+			},
+			{
+				"name": "Sizzling Shrimp",
+				"cost": 16.95
+			}
+		]
+	},
+	{
+		"group": "Combinations for One",
+		"items": [
+			{
+				"name": "Combo #1",
+				"consists": ["Sweet and Sour Chicken Balls", "Ham Fried Rice", "Pork Chop Suey"],
+				"cost": 13.95
+			},
+			{
+				"name": "Combo #2",
+				"consists": [
+					"Sweet and Sour Chicken Balls",
+					"Ham Fried Rice",
+					"Pork Chop Suey",
+					"Deep Fried Shrimp"
+				],
+
+				"cost": 15.95
+			},
+			{
+				"name": "Combo #2",
+				"consists": [
+					"Sweet and Sour Chicken Balls",
+					"Ham Fried Rice",
+					"Egg Roll",
+					"Deep Fried Shrimp"
+				],
+				"cost": 15.95
+			}
+		]
+	}
+]

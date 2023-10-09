@@ -1,0 +1,265 @@
+[
+	{
+		"group": "Appetisers",
+		"items": [
+			{
+				"name": "Egg Roll",
+				"cost": 3.0
+			},
+			{
+				"name": "Deep Fried Wontons",
+				"cost": 11.95
+			}
+		]
+	},
+	{
+		"group": "Seafood",
+		"items": [
+			{
+				"name": "Shrimp Fried Baby Corn",
+				"cost": 15.95
+			},
+			{
+				"name": "Shrimp with Broccoli",
+				"cost": 15.95
+			},
+			{
+				"name": "Ginger Green Onion Shrimp",
+				"cost": 15.95
+			},
+			{
+				"name": "Shrimp with Black Bean Sauce",
+				"cost": 15.95
+			},
+			{
+				"name": "Curry Shrimp",
+				"cost": 15.95
+			}
+		]
+	},
+	{
+		"group": "Chicken",
+		"items": [
+			{
+				"name": "Chicken Fried Baby Corn",
+				"cost": 15.95
+			},
+			{
+				"name": "Almond Chicken",
+				"cost": 15.95
+			},
+			{
+				"name": "Deep Fried Chicken Wings",
+				"cost": 15.95
+			},
+			{
+				"name": "Curry Chicken",
+				"cost": 15.95
+			},
+			{
+				"name": "Sweet and Sour Chicken Balls",
+				"cost": 15.95
+			},
+			{
+				"name": "Lemon Chicken",
+				"cost": 15.95
+			},
+			{
+				"name": "Cashew Chicken",
+				"cost": 15.95
+			},
+			{
+				"name": "Chicken Broccoli",
+				"cost": 15.95
+			},
+			{
+				"name": "Chicken with Fresh Mushrooms",
+				"cost": 15.95
+			},
+			{
+				"name": "Chicken with Black Bean Sauce",
+				"cost": 15.95
+			}
+		]
+	},
+	{
+		"group": "Chop Suey",
+		"items": [
+			{
+				"name": "Deluxe Chop Suey",
+				"cost": 15.95
+			},
+			{
+				"name": "Shrimp Chop Suey",
+				"cost": 15.95
+			},
+			{
+				"name": "Beef Chop Suey",
+				"cost": 15.95
+			},
+			{
+				"name": "Pork Chop Suey",
+				"cost": 15.95
+			},
+			{
+				"name": "Mushroom Chop Suey",
+				"cost": 15.95
+			},
+			{
+				"name": "Chicken Chop Suey",
+				"cost": 15.95
+			}
+		]
+	},
+	{
+		"group": "Egg Foo Yung",
+		"items": [
+			{
+				"name": "Chicken Foo Yung",
+				"cost": 15.95
+			},
+			{
+				"name": "Mushroom Foo Yung",
+				"cost": 15.95
+			},
+			{
+				"name": "Shrimp Foo Yung",
+				"cost": 15.95
+			},
+			{
+				"name": "Deluxe Foo Yung",
+				"cost": 15.95
+			}
+		]
+	},
+	{
+		"group": "Pork and Spare Ribs",
+		"items": [
+			{
+				"name": "Sweet and Sour Pork",
+				"cost": 15.95
+			},
+			{
+				"name": "Sweet and Sour Spare Ribs",
+				"cost": 15.95
+			},
+			{
+				"name": "Dry Spare Ribs",
+				"cost": 15.95
+			},
+			{
+				"name": "Dry Garlic Spare Ribs",
+				"cost": 15.95
+			},
+			{
+				"name": "Honey Garlic Spare Ribs",
+				"cost": 15.95
+			},
+			{
+				"name": "Honey Pork",
+				"cost": 15.95
+			}
+		]
+	},
+	{
+		"group": "Beef",
+		"items": [
+			{
+				"name": "Beef Fried in Oyster Sauce",
+				"cost": 15.95
+			},
+			{
+				"name": "Beef Broccoli",
+				"cost": 15.95
+			},
+			{
+				"name": "Fried Beef with Fresh Mushroom",
+				"cost": 15.95
+			},
+			{
+				"name": "Curry Beef",
+				"cost": 15.95
+			},
+			{
+				"name": "Ginger Beef",
+				"cost": 15.95
+			}
+		]
+	},
+	{
+		"group": "Chow Mein",
+		"items": [
+			{
+				"name": "Deluxe Chow Mein",
+				"cost": 15.95
+			},
+			{
+				"name": "Shrimp Chow Mein",
+				"cost": 15.95
+			},
+			{
+				"name": "Beef Chow Mein",
+				"cost": 15.95
+			},
+			{
+				"name": "Pork Chow Mein",
+				"cost": 15.95
+			},
+			{
+				"name": "Mushroom Chow Mein",
+				"cost": 15.95
+			},
+			{
+				"name": "Chicken Chow Mein",
+				"cost": 15.95
+			}
+		]
+	},
+	{
+		"group": "Fried Rice",
+		"items": [
+			{
+				"name": "Deluxe Fried Rice",
+				"cost": 12.95
+			},
+			{
+				"name": "Shrimp Fried Rice",
+				"cost": 12.95
+			},
+			{
+				"name": "Chicken Fried Rice",
+				"cost": 12.95
+			},
+			{
+				"name": "Beef Fried Rice",
+				"cost": 12.95
+			},
+			{
+				"name": "Ham Fried Rice",
+				"cost": 12.95
+			},
+			{
+				"name": "Pork Fried Rice",
+				"cost": 12.95
+			},
+			{
+				"name": "Mushroom Fried Rice",
+				"cost": 12.95
+			}
+		]
+	},
+	{
+		"group": "Side Order",
+		"items": [
+			{
+				"name": "Sweet and Sour Sauce",
+				"cost": 3.0
+			},
+			{
+				"name": "Steamed Rice",
+				"sm": 2.0,
+				"lg": 5.95
+			}
+		]
+	}
+]

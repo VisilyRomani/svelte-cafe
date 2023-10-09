@@ -1,0 +1,207 @@
+[
+	{
+		"group": "Breakfast",
+		"items": [
+			{
+				"name": "Toast and Jam",
+				"cost": 3.5
+			},
+			{
+				"name": "Bacon and Eggs",
+				"cost": 12.95
+			},
+			{
+				"name": "Ham and Eggs",
+				"cost": 12.95
+			},
+			{
+				"name": "Sausage and Eggs",
+				"cost": 12.95
+			},
+			{
+				"name": "Mushroom Omelette",
+				"cost": 12.95
+			},
+			{
+				"name": "Cheese Omelette",
+				"cost": 12.95
+			},
+			{
+				"name": "Ham and Cheese Omelette",
+				"cost": 12.95
+			},
+			{
+				"name": "Western Omelette",
+				"cost": 13.95
+			}
+		]
+	},
+	{
+		"group": "Beverages",
+		"items": [
+			{
+				"name": "Coffee/Tea",
+				"cost": 3
+			},
+			{
+				"name": "Soft Drinks",
+				"cost": 3
+			},
+			{
+				"name": "Juice (Apple/Orange)",
+				"cost": 3
+			},
+			{
+				"name": "Hot Chocolate",
+				"cost": 3
+			}
+		]
+	},
+	{
+		"group": "Kids Meal",
+		"items": [
+			{
+				"name": "Chicken Nuggets & Fries (4 Pce)",
+				"cost": 7.95
+			},
+			{
+				"name": "Fish and Chips (1 Pce)",
+				"cost": 7.95
+			},
+			{
+				"name": "Pizza Pop and Fries",
+				"cost": 7.95
+			},
+			{
+				"name": "Chicken Fingers & Fries (4 Pce)",
+				"cost": 7.95
+			}
+		]
+	},
+	{
+		"group": "Sandwiches and Fries",
+		"items": [
+			{
+				"name": "Denver Sandwich",
+				"cost": 12.95
+			},
+			{
+				"name": "Clubhouse Sandwich",
+				"cost": 14.95
+			},
+			{
+				"name": "Grilled Cheese",
+				"cost": 12.95
+			},
+			{
+				"name": "Grilled Ham and Cheese",
+				"cost": 13.95
+			},
+			{
+				"name": "Cheese Burger",
+				"cost": 12.95
+			},
+			{
+				"name": "Bacon Cheese Burger",
+				"cost": 13.95
+			},
+			{
+				"name": "Chicken Burger",
+				"cost": 12.95
+			},
+			{
+				"name": "Deluxe Burger",
+				"cost": 13.95
+			}
+		]
+	},
+	{
+		"group": "Favorites",
+		"items": [
+			{
+				"name": "Breaded Veal Cutlets",
+				"cost": 15.95
+			},
+			{
+				"name": "Breaded Liver with Onions",
+				"cost": 15.95
+			},
+			{
+				"name": "Breaded Liver with Bacon",
+				"cost": 15.95
+			},
+			{
+				"name": "Hamburger Steak with Onions",
+				"cost": 15.95
+			},
+			{
+				"name": "Pork Sausages",
+				"cost": 15.95
+			},
+			{
+				"name": "Fried Chicken",
+				"cost": 15.95
+			},
+			{
+				"name": "Chicken Fingers",
+				"cost": 15.95
+			},
+			{
+				"name": "Fish and Chips",
+				"cost": 15.95
+			},
+			{
+				"name": "Hot Veal Sandwich",
+				"cost": 15.95
+			},
+			{
+				"name": "Hot Hamburger Sandwich",
+				"cost": 15.95
+			},
+			{
+				"name": "Chicken Salad",
+				"cost": 13.95
+			}
+		]
+	},
+	{
+		"group": "Side Order",
+		"items": [
+			{
+				"name": "Tossed Salad",
+				"cost": 6.95
+			},
+			{
+				"name": "French Fries",
+				"sm": 5.95,
+				"lg": 10.95
+			},
+			{
+				"name": "Poutine",
+				"sm": 8.95,
+				"lg": 12.95
+			},
+			{
+				"name": "Onion Rings",
+				"cost": 10.95
+			},
+			{
+				"name": "Gravy",
+				"cost": 2.5
+			}
+		]
+	},
+	{
+		"group": "Steak",
+		"items": [
+			{
+				"name": "T-Bone Steak",
+				"cost": 36.95
+			},
+			{
+				"name": "Rib Steak",
+				"cost": 36.95
+			}
+		]
+	}
+]
