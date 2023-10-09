@@ -7,16 +7,10 @@
 	let selectValue: SelectMenuType;
 
 	let Menu: MenuType = [];
-	// $: if (selectValue === 'chinese') {
-	// 	Menu = chinese;
-	// }
 	$: switch (selectValue) {
 		case 'chinese':
 			Menu = chinese;
 			break;
-		// case 'canadian':
-		// 	Menu = canadian;
-		// 	break;
 		case 'family':
 			Menu = family;
 			break;
@@ -30,24 +24,11 @@
 <div class="bg" />
 <main class="hero">
 	<div class="container">
-		<!-- <aside>
-            <ul>
-                {#each Menu as group}
-					<li>
-                        <a href={`#${group.group}`}>
-                            {group.group}
-						</a>
-					</li>
-				{/each}
-			</ul>
-		</aside> -->
 		<select bind:value={selectValue}>
 			<option value="chinese">Chinese Dishes</option>
 			<option value="family">Family Dinner</option>
-			<!-- <option value="canadian">Canadian Dishes</option> -->
 		</select>
 		{#each Menu as group}
-			<!-- <details> -->
 			<h4>
 				<strong>
 					{group.group}
@@ -61,7 +42,7 @@
 								{item.name}
 							</h6>
 							{#if item?.consists}
-								<ul style="max-width: 500px;">
+								<ul>
 									{#each item?.consists ?? [] as cons}
 										<li>
 											<small>
@@ -86,7 +67,6 @@
 					</article>
 				{/each}
 			</div>
-			<!-- </details> -->
 		{/each}
 	</div>
 </main>
