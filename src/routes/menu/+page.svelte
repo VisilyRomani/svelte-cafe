@@ -46,9 +46,7 @@
 									{#each item?.consists ?? [] as cons}
 										<li>
 											<small>
-												<p>
-													{cons}
-												</p>
+												{cons}
 											</small>
 										</li>
 									{/each}
