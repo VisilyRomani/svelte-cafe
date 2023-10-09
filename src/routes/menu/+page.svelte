@@ -82,7 +82,7 @@
 	}
 
 	ul {
-		margin: 0;
+		margin: 0.5em;
 	}
 	h6 {
 		margin: 0;
@@ -103,7 +103,6 @@
 	.center-item {
 		display: flex;
 		flex-direction: column;
-		/* margin: 0.5em; */
 		margin: 0;
 	}
 
