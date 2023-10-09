@@ -21,10 +21,6 @@
 		<li>
 			<a class="link {$page.url.pathname === '/menu' && 'active'}" href="/menu">Menu</a>
 		</li>
-
-		<li>
-			<a class="link {$page.url.pathname === '/about' && 'active'}" href="/about">About</a>
-		</li>
 	</ul>
 </nav>
 

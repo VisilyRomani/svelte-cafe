@@ -42,8 +42,8 @@
 	</article>
 	<footer>
 		<small
-			>Website developed by Michael Wong (<a
-				href="https://github.com/picocss/examples/tree/master/v1-google-amp/">Source code</a
+			>Website developed by Michael Wong (<a href="https://github.com/VisilyRomani/svelte-cafe"
+				>Source code</a
 			>)</small
 		>
 	</footer>
