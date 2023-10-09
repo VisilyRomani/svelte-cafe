@@ -81,7 +81,7 @@
 	.hero-content {
 		position: absolute;
 		width: 100%;
-		height: 100%;
+		height: 90%;
 		/* top: 95px; */
 		display: flex;
 		justify-content: center;
@@ -112,7 +112,7 @@
 	}
 
 	.hero {
-		height: 100vh;
+		height: 90vh;
 		background-color: #394046;
 		background-image: url('/src/lib/asset/Hero.jpg');
 		background-position: center;
