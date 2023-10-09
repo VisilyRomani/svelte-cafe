@@ -7,7 +7,7 @@
 <nav>
 	<ul>
 		<li>
-			<strong class={`${bg}`}>Dennis's Cafe</strong>
+			<strong class={`${bg}`}>Dennis' Cafe</strong>
 		</li>
 	</ul>
 	<ul>
