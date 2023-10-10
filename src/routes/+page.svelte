@@ -1,7 +1,7 @@
 <div class="hero">
 	<div class="hero-content">
 		<div class="animate">
-			<h3 class="hero-h">Food</h3>
+			<h3 class="hero-h">Fine Canadian and Chinese Cuisine</h3>
 			<a class="menu" href="/menu">Menu</a>
 		</div>
 	</div>
@@ -76,13 +76,10 @@
 		}
 	}
 
-	/* background-color: aliceblue;
-	height: 100%; */
 	.hero-content {
 		position: absolute;
 		width: 100%;
 		height: 90%;
-		/* top: 95px; */
 		display: flex;
 		justify-content: center;
 		align-items: center;
